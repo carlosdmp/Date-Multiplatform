@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/rs/debug;file://$MODULE_DIR$/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="false" externalProjectId=":app">
+        <sourceSets>
+          <sourceSet>mppSample.app.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.41/8d3d500e42bd74c17fa9586db8ca85c336979d02/kotlin-android-extensions-runtime-1.3.41.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7927dfb7a68d6ef8a32b9dc1332d8c20/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/7e3224111576957f049001531e1715f5/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6a4cd5fb7805f50bc4f7588503fb93e1/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/e412c0bd1a9f38960d32c1ba742bb30e/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/743cc00a234fe3d30ab91e395133350f/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/33b43ad377241412a9a26e08e217bc27/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f6a536dc4be3d0649d110eae0c5fe0bf/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9f3972d1f71e7d049c6175d272ca257d/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0999bb7b8080d9e86b80b08244e3546d/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/d56fe4af6ce724118ec231f6b8757d40/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b4d55b680ded37b9daccf4d87352cd7e/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2a463c2173a45f520c922d383e278015/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/26dd8d871f8798fbd893ece1abc26473/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1e869e9f223bc0b1e82b2488f0e9b9d0/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/a2d02b2251cec47657e8717631067067/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/17d5361b7faa4e8253ec31b6fa628e42/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/eea6b9105bafad804636a9bb01f341eb/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/b5ea40e7973fd7e408f8b20de0336f55/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bd2242887fb43e4a1d16cacca3713785/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c9c81bc8e9effa10ba19b05dfd2136b9/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ac58b13b20eedd9b4bbe96e9c466610b/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/63fa5ddfb7b94dc3a6e7d7fdd1311cb2/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a9d5dd9e171bd1c78368986cbc73bb32/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/aea08a59c98e86aace243f91fc7656bb/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/db10603dbaad1fe51ff9608cb563e352/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6d3304f1c555963968395dd533840697/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/c.miguel.platero/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/31d5ca3c1e243f69369024f5aa33ca39/jars/classes.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/c.miguel.platero/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/c.miguel.platero/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.41/3bb1958b60435763b1299eb4e2dea5bea3bab2a3/kotlin-android-extensions-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.41/6b1d4385d65894e07a0d14a5949f5417a408f0b7/kotlin-compiler-embeddable-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.41/8fb58b8954661de666e321478bf4178c18ce8018/kotlin-reflect-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.41/bcc3380041bbba171119c22d7024961b60da69e0/kotlin-script-runtime-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.41/f5200923717f821267ed450728e13680b9065f2e/kotlin-scripting-common-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.41/5fe615a9cf0ae74bd99f302c2cdc92556ea960ea/kotlin-scripting-jvm-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="sonarModuleSettings">
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+  </component>
+</module>
