@@ -10,6 +10,10 @@ expect object Platform {
 
 fun hello(): String = "Hello from ${Platform.name}"
 
+expect class CurrentDate(){
+    fun getCurrentDate(): String
+}
+
 class Proxy {
     fun proxyHello() = hello()
 }
