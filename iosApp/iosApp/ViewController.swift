@@ -14,11 +14,11 @@ class ViewController: UIViewController, DateProtocol {
     
     func getIosDate() -> String{
         let formatted = DateFormatter()
-        formatted.dateFormat = "dd/MM/YYYY"
+        formatted.dateFormat = SampleKt.dateFormat()
         return formatted.string(from: Date())
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }    
+    }
 }

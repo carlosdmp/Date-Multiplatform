@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 actual class CurrentDate actual constructor() {
     actual fun getCurrentDate(): String {
         val c = Calendar.getInstance().getTime()
-        val df = SimpleDateFormat("dd-MMM-yyyy")
+        val df = SimpleDateFormat(dateFormat())
         return df.format(c)
     }
 }

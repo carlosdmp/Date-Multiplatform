@@ -10,6 +10,8 @@ expect object Platform {
 
 fun hello(): String = "Hello from ${Platform.name}"
 
+fun dateFormat(): String = "dd-MM-YYYY HH:mm"
+
 expect class CurrentDate(){
     fun getCurrentDate(): String
 }
