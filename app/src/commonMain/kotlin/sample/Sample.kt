@@ -1,25 +1,9 @@
 package sample
 
-expect class Sample() {
-    fun checkMe(): Int
+object DateUtilities {
+    const val dateFormat = "dd-MM-YYYY HH:mm"
 }
 
-expect object Platform {
-    val name: String
-}
-
-fun hello(): String = "Hello from ${Platform.name}"
-
-fun dateFormat(): String = "dd-MM-YYYY HH:mm"
-
-expect class CurrentDate(){
+expect object PlatformDate {
     fun getCurrentDate(): String
-}
-
-class Proxy {
-    fun proxyHello() = hello()
-}
-
-fun main() {
-    println(hello())
 }

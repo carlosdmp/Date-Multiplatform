@@ -1,19 +1,9 @@
 package sample
 
-
-
-actual class Sample {
-    actual fun checkMe() = 7
-}
-
-actual object Platform {
-    actual val name: String = "iOS"
-}
-
-actual class CurrentDate actual constructor() {
+actual object PlatformDate {
     private lateinit var dateProtocol: DateProtocol
 
-    fun setProtocol(protocol: DateProtocol){
+    fun setImplementation(protocol: DateProtocol) {
         dateProtocol = protocol
     }
 

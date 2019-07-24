@@ -7,16 +7,9 @@ class ViewController: UIViewController, DateProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let currentDateClass = CurrentDate()
-        currentDateClass.setProtocol(protocol: self)
-        label.text = currentDateClass.getCurrentDate()
+        
     }
     
-    func getIosDate() -> String{
-        let formatted = DateFormatter()
-        formatted.dateFormat = SampleKt.dateFormat()
-        return formatted.string(from: Date())
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
