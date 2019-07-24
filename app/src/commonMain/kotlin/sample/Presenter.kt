@@ -4,7 +4,7 @@ class Presenter(private val view: DateView) {
 
     fun start() {
         val state = DateState(
-            text = DateUtilities.platformDate.getCurrentDate()
+            text = dateUtilities.platformDate.getCurrentDate()
         )
         view.showState(state)
     }

@@ -1,9 +1,11 @@
 package sample
 
-object DateUtilities {
+val dateUtilities = DateUtilities()
+
+class DateUtilities {
     var platformDate = PlatformDate()
 
-    const val dateFormat = "dd-MM-YYYY HH:mm"
+    val dateFormat = "dd-MM-YYYY HH:mm"
 
 }
 
