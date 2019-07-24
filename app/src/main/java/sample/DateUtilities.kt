@@ -4,7 +4,7 @@ import sample.DateUtilities.dateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
-actual object PlatformDate {
+actual class PlatformDate {
     actual fun getCurrentDate(): String {
         val date = Calendar.getInstance().getTime()
         val df = SimpleDateFormat(dateFormat)

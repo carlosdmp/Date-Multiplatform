@@ -6,7 +6,7 @@ class IosDateUtilities{
     
     func initPlatformActual() {
         let currentDateClass = DateIos()
-        PlatformDate().setImplementation(protocol: currentDateClass)
+        DateUtilities().platformDate.setImplementation(protocol: currentDateClass)
     }
     
     class DateIos: DateProtocol {

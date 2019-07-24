@@ -1,9 +1,12 @@
 package sample
 
 object DateUtilities {
+    var platformDate = PlatformDate()
+
     const val dateFormat = "dd-MM-YYYY HH:mm"
+
 }
 
-expect object PlatformDate {
+expect class PlatformDate() {
     fun getCurrentDate(): String
 }
